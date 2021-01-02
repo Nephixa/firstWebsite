@@ -1,0 +1,36 @@
+$header-colour: #eeeeee;
+$font-colour: #1C1C1C;
+
+.header {
+    padding: 15px;
+    background: $header-colour;
+    color: $font-colour;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .flex-container .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    margin: 0 50px;
+    font-size: 20px;
+    font-family: 'Roboto', 'Roboto Mono', 'Ubuntu', sans-serif, monospace;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Ubuntu', monospace;
+    padding: 0 15px;
+}
+
+body {
+    margin: 0;
+}
