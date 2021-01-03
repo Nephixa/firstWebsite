@@ -1,5 +1,38 @@
 $background-colour: #1C1C1C;
 
+.App {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    min-height: 100vh;
+    // text-align: center;
+}
+
+// .item1 {
+// }
+
+// .item2 {
+//     min-height: 100vh;
+//     border: 1px solid white;
+//     text-align: center;
+// }
+
+.title {
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    // text-align: center;
+    // top: 45%;
+    // left: 50%;
+    // position: fixed;
+    // transform: translate(-50%, -50%)
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
-    background: $background-colour;
+    margin: 0;
 }

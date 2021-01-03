@@ -1,0 +1,43 @@
+// :root {
+//     $background-colour: #1C1C1C;
+//     background: $background-colour;
+// }
+
+$background-colour: #1C1C1C;
+$font-colour: cyan;
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: $background-colour;
+
+    .inner-hero {
+        text-align: center;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        color: $font-colour;
+    }
+
+    // .projects {
+    //     height: 100vh;
+    //     width: 100%;
+    //     background: white;
+    //     position: relative;
+    // }
+
+    .pre-intro {
+        font-size: 16px;
+        font-family: sans-serif;
+        font-style: italic;
+    }
+
+    .name {
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+}
+

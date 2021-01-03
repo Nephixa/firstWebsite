@@ -1,9 +1,9 @@
 import React from 'react'
 import './header.scss'
 
-export default function Header() {
+function Header() {
     return (
-        <div className="header">
+        <header className="header">
             <div className="flex-container">
                 <div className='logo'>KC</div>
                 <div className="navbar">
@@ -12,8 +12,8 @@ export default function Header() {
                 </div>
                 
             </div>
-        </div>
+        </header>
     )
 }
 
-
+export default Header
