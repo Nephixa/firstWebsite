@@ -5,22 +5,13 @@ import degree from '../images/degree-hat.svg'
 import location from '../images/location.svg'
 import GithubLogo, {LinkedInLogo} from '../Icon'
 import Particles from 'react-particles-js'
+import particlesConfig from '../config/configParticles'
 
 function Body() {
     return (
         <div className="container">
             <Particles id="particles-js"
-                params={{
-                    particles: {
-                        number: {
-                            value: 100,
-                            density: {
-                                enable: true,
-                                value_area: 2500,
-                            }
-                        },
-                    },
-                }}    
+                params={particlesConfig}    
             />
             <div className="hero">
                 <div className="description">

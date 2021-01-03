@@ -14,8 +14,9 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
 }
 
 .container {
-    height: 100vh;
-    width: 100%;
+    // height: 100vh;
+    // width: 100%;
+    position: relative;
 
     .hero {
         height: 100vh;
