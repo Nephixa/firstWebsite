@@ -6,6 +6,7 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
     font-size: 16px;
 }
 
+
 .container {
     height: 100vh;
     width: 100%;
@@ -43,6 +44,7 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
             .location {
                 font-size: 1.5rem;
                 font-weight: 300;
+                white-space: pre;
             }
 
             img {
@@ -57,21 +59,25 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                // top: 65%;
-                // left: 50%;
-                // transform: translate(-50%, -0%);
-                // position: absolute;
-                img {
-                    width: 3rem;
-                    height: 3rem;
-                    margin: 1.5rem;
+
+                a:hover {
+                    fill: lightgreen;
+                }
+
+                .link-logo {
+                    height: 48px;
+                    width: 48px;
+                }
+
+                .link-logo:hover {
+                    fill: lightgreen;
                 }
             }
-        }
 
-        
-    
-        
+            .icons:hover {
+                fill: lightgreen;
+            }
+        }
     }
     .projects {
         height: 100vh;
@@ -79,6 +85,4 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
         color: $primary-colour;
     }
 }
-
-
 

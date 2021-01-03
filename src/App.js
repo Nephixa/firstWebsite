@@ -4,12 +4,9 @@ import Body from './components/body'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
-      <div className="title">
-        <Body />
-      </div>
-      
+      <Body />
     </div>
   );
 }

@@ -6,11 +6,11 @@ function Header() {
         <header className="header">
             <div className="flex-container">
                 <div className='logo'>KC</div>
-                <div className="navbar">
-                    <div>Projects</div>
-                    <div>About Me</div>
-                    <div>Contact Info</div>
-                </div>
+                    <nav className="navbar">
+                        <a href="#">Projects</a>
+                        <a href="#">About Me</a>
+                        <a href="#">Contact Info</a>
+                    </nav>
                 
             </div>
         </header>
