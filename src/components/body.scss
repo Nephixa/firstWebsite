@@ -6,29 +6,30 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
     font-size: 16px;
 }
 
-// #particles-js {
-//     background: $primary-colour;
-//     height: 100vh;
-//     width: 100%;
-//     position: absolute;
-// }
-
-.container {
+#particles-js {
+    background: $primary-colour;
     height: 100vh;
     width: 100%;
-    // position: relative;
+    position: absolute;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
 
     .hero {
         height: 100vh;
         background: $primary-colour;
         color: $secondary-colour;
         font-family: $hero-fonts;
+        align-items: center;
 
         .description {
             text-align: center;
             position: absolute;
             left: 50%;
-            top: 35%;
+            top: 35vh;
             transform: translate(-50%, -0%);
             width: 100%;
 
@@ -44,15 +45,13 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
                 font-size: 7rem;
             }
 
-            .degree {
+            .degree, .location {
                 font-size: 1.5rem;
                 white-space: pre;
             }
 
             .location {
-                font-size: 1.5rem;
                 font-weight: 300;
-                white-space: pre;
             }
 
             img {
@@ -83,7 +82,7 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
     }
     .projects {
         height: 100vh;
-        // width: 100%;
+        width: 100%;
         background: $secondary-colour;
         color: $primary-colour;
     }
