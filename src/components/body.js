@@ -3,7 +3,7 @@ import './body.scss'
 import github from '../images/github-icon.svg'
 import degree from '../images/degree-hat.svg'
 import location from '../images/location.svg'
-import GithubLogo from '../Icon'
+import GithubLogo, {LinkedInLogo} from '../Icon'
 
 function Body() {
     return (
@@ -22,12 +22,15 @@ function Body() {
                             <a href="https://github.com/Nephixa" target="_blank" rel="noopener noreferrer">
                                 <GithubLogo className="link-logo" />
                             </a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">
+                                <LinkedInLogo className="link-logo" />
+                            </a>
                         </nav>
                 </div>
             </div>
-            {/* <div className="projects">
+            <div className="projects">
                 There
-            </div> */}
+            </div>
         </div>
         
     )

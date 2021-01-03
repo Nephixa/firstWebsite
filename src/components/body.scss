@@ -23,6 +23,8 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
             left: 50%;
             top: 35%;
             transform: translate(-50%, -0%);
+            height: 100vh;
+            width: 100%;
 
             .pre-intro {
                 margin: 0;
@@ -56,26 +58,20 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
             }
 
             .icons {
+                margin-top: 4rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
-                a:hover {
-                    fill: lightgreen;
-                }
-
                 .link-logo {
-                    height: 48px;
-                    width: 48px;
+                    height: 3rem;
+                    width: 3rem;
+                    margin: 0.5rem;
                 }
 
                 .link-logo:hover {
                     fill: lightgreen;
                 }
-            }
-
-            .icons:hover {
-                fill: lightgreen;
             }
         }
     }
