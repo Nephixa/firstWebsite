@@ -28,9 +28,9 @@ function Body() {
                         </nav>
                 </div>
             </div>
-            <div className="projects">
+            {/* <div className="projects">
                 There
-            </div>
+            </div> */}
         </div>
         
     )
