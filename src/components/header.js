@@ -5,13 +5,14 @@ function Header() {
     return (
         <header className="header">
             <div className="flex-container">
-                <div className='logo'>KC</div>
-                    <nav className="navbar">
-                        <a href="#">Projects</a>
-                        <a href="#">About Me</a>
-                        <a href="#">Contact Info</a>
-                    </nav>
-                
+                {/* <div className='logo'> */}
+                    <a id="logo" href="/" alt="homepage">KC</a>
+                {/* </div> */}
+                <nav className="navbar">
+                    <a href="/">Projects</a>
+                    <a href="/">About Me</a>
+                    <a href="/">Contact Info</a>
+                </nav>
             </div>
         </header>
     )

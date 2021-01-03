@@ -1,7 +1,10 @@
 $secondary-colour: #eeeeee;
 $primary-colour: #1C1C1C;
 
-.header {
+
+header {
+    z-index: 999;
+    height: 2rem;
     padding: 15px;
     background: $secondary-colour;
     color: $primary-colour;
@@ -15,26 +18,30 @@ $primary-colour: #1C1C1C;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        #logo {
+            font-size: 30px;
+            font-family: 'Ubuntu', monospace;
+            padding: 0 15px;
+            text-decoration: none;
+            color: $primary-colour;
+        }
     }
 
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap: 32px;
-        margin: 0 2rem;
+    nav {
         font-size: 20px;
         font-family: 'Roboto', 'Roboto Mono', 'Ubuntu', sans-serif, monospace;
         font-weight: 300;
-    }
-    
-    .logo {
-        font-size: 30px;
-        font-family: 'Ubuntu', monospace;
-        padding: 0 15px;
-    }
-}
 
-header {
-    z-index: 999;
+        a {
+            text-decoration: none;
+            color: $primary-colour;
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+            &:last-child {
+                margin-right: 3rem;
+            }
+        }
+    }
 }

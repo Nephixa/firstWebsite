@@ -6,21 +6,21 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
     font-size: 16px;
 }
 
-#particles-js {
-    background: $primary-colour;
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-}
+// #particles-js {
+//     background: $primary-colour;
+//     height: 100vh;
+//     width: 100%;
+//     position: absolute;
+// }
 
 .container {
-    // height: 100vh;
-    // width: 100%;
-    position: relative;
+    height: 100vh;
+    width: 100%;
+    // position: relative;
 
     .hero {
         height: 100vh;
-        // background: $primary-colour;
+        background: $primary-colour;
         color: $secondary-colour;
         font-family: $hero-fonts;
 
@@ -30,7 +30,6 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
             left: 50%;
             top: 35%;
             transform: translate(-50%, -0%);
-            // margin:0 auto;
             width: 100%;
 
             .pre-intro {
@@ -84,6 +83,7 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
     }
     .projects {
         height: 100vh;
+        // width: 100%;
         background: $secondary-colour;
         color: $primary-colour;
     }

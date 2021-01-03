@@ -10,9 +10,9 @@ import particlesConfig from '../config/configParticles'
 function Body() {
     return (
         <div className="container">
-            <Particles id="particles-js"
+            {/* <Particles id="particles-js"
                 params={particlesConfig}    
-            />
+            /> */}
             <div className="hero">
                 <div className="description">
                     <p className="pre-intro">Hi, I'm</p>
@@ -34,9 +34,9 @@ function Body() {
                 </div>
             </div>
             
-            {/* <div className="projects">
+            <div className="projects">
                 There
-            </div> */}
+            </div>
         </div>
         
     )
