@@ -4,10 +4,24 @@ import github from '../images/github-icon.svg'
 import degree from '../images/degree-hat.svg'
 import location from '../images/location.svg'
 import GithubLogo, {LinkedInLogo} from '../Icon'
+import Particles from 'react-particles-js'
 
 function Body() {
     return (
         <div className="container">
+            <Particles id="particles-js"
+                params={{
+                    particles: {
+                        number: {
+                            value: 100,
+                            density: {
+                                enable: true,
+                                value_area: 2500,
+                            }
+                        },
+                    },
+                }}    
+            />
             <div className="hero">
                 <div className="description">
                     <p className="pre-intro">Hi, I'm</p>
@@ -28,6 +42,7 @@ function Body() {
                         </nav>
                 </div>
             </div>
+            
             {/* <div className="projects">
                 There
             </div> */}
