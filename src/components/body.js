@@ -1,19 +1,32 @@
 import React from 'react'
 import './body.scss'
+import github from '../images/github-icon.svg'
+import degree from '../images/degree-hat.svg'
+import location from '../images/location.svg'
 
 function Body() {
     return (
-        <div className="hero">
-            <div className="inner-hero">
-                <h3 className="pre-intro">Hi, I'm</h3>
-                <h1 className="name">KEVIN CAI</h1>
-                <h2 className="degree">Bachelor of Adv. Computing @ USYD</h2>
-                <h2 className="location">Sydney, Australia</h2>
+        <div className="container">
+            <div className="hero">
+                <div className="description">
+                    <p className="pre-intro">Hi, I'm</p>
+                    <p className="name">KEVIN CAI</p>
+                    <p className="degree">
+                        <img src={degree} alt="degree"></img>   Bachelor of Adv. Computing @ USYD
+                    </p>
+                    <p className="location">
+                        <img src={location} alt="location"></img>   Sydney, Australia
+                    </p>
+                    <div class="icons">
+                        <img src={github} alt="github"></img>
+                    </div>
+                </div>
             </div>
             <div className="projects">
-                <p>Lorem</p>
+                There
             </div>
         </div>
+        
     )
 }
 

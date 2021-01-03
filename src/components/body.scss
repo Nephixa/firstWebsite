@@ -1,43 +1,84 @@
-// :root {
-//     $background-colour: #1C1C1C;
-//     background: $background-colour;
-// }
+$primary-colour: #1C1C1C;
+$secondary-colour: #eeeeee;
+$hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monospace, sans-serif;
 
-$background-colour: #1C1C1C;
-$font-colour: cyan;
+:root {
+    font-size: 16px;
+}
 
-.hero {
+.container {
     height: 100vh;
     width: 100%;
-    background: $background-colour;
 
-    .inner-hero {
-        text-align: center;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        color: $font-colour;
+    .hero {
+        height: 100vh;
+        background: $primary-colour;
+        color: $secondary-colour;
+        font-family: $hero-fonts;
+
+        .description {
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 35%;
+            transform: translate(-50%, -0%);
+
+            .pre-intro {
+                margin: 0;
+                font-style: italic;
+                font-size: 1.2rem;
+            }
+
+            .name {
+                margin: 0;
+                margin-bottom: 2rem;
+                font-size: 7rem;
+            }
+
+            .degree {
+                font-size: 1.5rem;
+                white-space: pre;
+            }
+
+            .location {
+                font-size: 1.5rem;
+                font-weight: 300;
+            }
+
+            img {
+                width: 2rem;
+                height: 2rem;
+                display: inline;
+                vertical-align: middle;
+                margin: 0;
+            }
+
+            .icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // top: 65%;
+                // left: 50%;
+                // transform: translate(-50%, -0%);
+                // position: absolute;
+                img {
+                    width: 3rem;
+                    height: 3rem;
+                    margin: 1.5rem;
+                }
+            }
+        }
+
+        
+    
+        
     }
-
-    // .projects {
-    //     height: 100vh;
-    //     width: 100%;
-    //     background: white;
-    //     position: relative;
-    // }
-
-    .pre-intro {
-        font-size: 16px;
-        font-family: sans-serif;
-        font-style: italic;
+    .projects {
+        height: 100vh;
+        background: $secondary-colour;
+        color: $primary-colour;
     }
-
-    .name {
-        font-size: 50px;
-        font-family: 'Roboto', sans-serif;
-    }
-
-
 }
+
+
 

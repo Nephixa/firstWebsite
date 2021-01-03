@@ -7,6 +7,7 @@ function Header() {
             <div className="flex-container">
                 <div className='logo'>KC</div>
                 <div className="navbar">
+                    <div>Projects</div>
                     <div>About Me</div>
                     <div>Contact Info</div>
                 </div>

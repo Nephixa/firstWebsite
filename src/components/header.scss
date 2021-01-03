@@ -1,13 +1,14 @@
-$header-colour: #eeeeee;
-$font-colour: #1C1C1C;
+$secondary-colour: #eeeeee;
+$primary-colour: #1C1C1C;
 
 .header {
     padding: 15px;
-    background: $header-colour;
-    color: $font-colour;
+    background: $secondary-colour;
+    color: $primary-colour;
     margin: 0;
-    // position: fixed;
-    // width: 100%;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid $primary-colour;
 
     .flex-container {
         display: flex;
@@ -24,6 +25,7 @@ $font-colour: #1C1C1C;
         margin: 0 2rem;
         font-size: 20px;
         font-family: 'Roboto', 'Roboto Mono', 'Ubuntu', sans-serif, monospace;
+        font-weight: 300;
     }
     
     .logo {
@@ -33,3 +35,6 @@ $font-colour: #1C1C1C;
     }
 }
 
+header {
+    z-index: 999;
+}
