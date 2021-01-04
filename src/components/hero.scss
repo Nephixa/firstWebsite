@@ -48,7 +48,7 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
                 font-size: 7rem;
                 // total time, transition smoothness, delay, dunno bout the rest
                 animation: typing 1s linear 0.5s 1 normal both,
-                    blink-caret 0.6s linear infinite;
+                    blink-caret 1s linear infinite;
             }
 
             @keyframes typing {
