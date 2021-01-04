@@ -10,7 +10,7 @@ function Projects() {
     }
 
     return (
-        <div className="projects">
+        <div className="projects bg-projects">
             <div className="placeholder">
                 <h2>Budget Cookie Clicker</h2>
                 <h3>Number of times clicked: {count}</h3>

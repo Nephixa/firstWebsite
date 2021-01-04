@@ -6,7 +6,6 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
 .projects {
     height: 100vh;
     width: 100%;
-    background: $primary-colour;
     color: $secondary-colour;
     position: relative;
 
@@ -17,4 +16,13 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
         position: absolute;
         transform: translate(-50%, -50%);
     }
+}
+
+.bg-projects {
+    background-image: url('../images/DROGON.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: $primary-colour;
 }

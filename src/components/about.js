@@ -8,7 +8,7 @@ function About() {
                 <h1>About Me</h1>
                 <p>
                     This is a placeholder spot for my future about me page.
-                    I dunno what im gonna put here since this is just a personal project.
+                    I dunno what im gonna put here since this is just a personal project.<br />
                     jezza stinky x2
                 </p>
             </div>
