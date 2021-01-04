@@ -1,4 +1,4 @@
-  
+import { Link } from 'react-router-dom';
 import React from 'react'
 import './header.scss'
 
@@ -6,13 +6,10 @@ function Header() {
     return (
         <header className="header">
             <div className="flex-container">
-                {/* <div className='logo'> */}
-                    <a id="logo" href="/" alt="homepage">KC</a>
-                {/* </div> */}
+                <Link to="/" id="logo">KC</Link>
                 <nav className="navbar">
-                    <a href="/">Projects</a>
-                    <a href="/">About Me</a>
-                    <a href="/">Contact Info</a>
+                    <Link to="/projects">PROJECTS</Link>
+                    <Link to="/about">ABOUT ME</Link>
                 </nav>
             </div>
         </header>

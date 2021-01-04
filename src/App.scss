@@ -1,10 +1,10 @@
 // $background-colour: #1C1C1C;
 
 
-.App {
-    position: relative;
-    overflow: hidden;
-}
+// .App {
+//     position: relative;
+//     overflow: hidden;
+// }
 
 // .title {
 //     // display: flex;
@@ -22,6 +22,7 @@
 //     align-items: center;
 // }
 
-body {
+body, html {
+    height: 100%;
     margin: 0;
 }

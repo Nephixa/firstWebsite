@@ -1,5 +1,6 @@
-  $secondary-colour: #eeeeee;
+$secondary-colour: #eeeeee;
 $primary-colour: #1C1C1C;
+$accent-colour: greenyellow;
 
 :root {
     font-size: 16px;
@@ -14,7 +15,7 @@ header {
     margin: 0;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid $primary-colour;
+    border-bottom: 3px solid $primary-colour;
 
     .flex-container {
         display: flex;
@@ -29,21 +30,22 @@ header {
             text-decoration: none;
             color: $primary-colour;
         }
-    }
 
-    nav {
-        font-size: 20px;
-        font-family: 'Roboto', 'Roboto Mono', 'Ubuntu', sans-serif, monospace;
-        font-weight: 300;
-
-        a {
-            text-decoration: none;
-            color: $primary-colour;
-            margin-left: 0.75rem;
-            margin-right: 0.75rem;
-
-            &:last-child {
-                margin-right: 3rem;
+        nav {
+            font-size: 20px;
+            font-family: 'Roboto', 'Roboto Mono', 'Ubuntu', sans-serif, monospace;
+            font-weight: 300;
+    
+            a, Link {
+                font-stretch: condensed;
+                text-decoration: none;
+                color: $primary-colour;
+                margin-left: 0.75rem;
+                margin-right: 0.75rem;
+    
+                &:last-child {
+                    margin-right: 3rem;
+                }
             }
         }
     }

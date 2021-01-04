@@ -1,0 +1,105 @@
+$primary-colour: #1C1C1C;
+$secondary-colour: #eeeeee;
+$accent-colour: greenyellow;
+$hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monospace, sans-serif;
+
+:root {
+    font-size: 16px;
+}
+
+#particles-js {
+    background: $primary-colour;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    .hero {
+        height: 100vh;
+        background: $primary-colour;
+        color: $secondary-colour;
+        font-family: $hero-fonts;
+        align-items: center;
+
+        .description {
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 35vh;
+            transform: translate(-50%, -0%);
+
+            .pre-intro {
+                margin: 0;
+                font-style: italic;
+                font-size: 1.2rem;
+            }
+
+            .name {
+                overflow: hidden;
+                border-right: .15rem solid $secondary-colour;
+                white-space: nowrap;
+                margin: 0 auto;
+                margin-bottom: 2rem;
+                font-size: 7rem;
+                animation: typing 1.5s linear 1 normal both,
+                    blink-caret 0.75s linear infinite;
+            }
+
+            @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+            }
+
+            @keyframes blink-caret {
+                from { border-color: $secondary-colour }
+                to {border-color: transparent; }
+            }
+
+            .degree, .location {
+                font-size: 1.5rem;
+                white-space: pre;
+            }
+
+            .location {
+                font-weight: 300;
+            }
+
+            img {
+                width: 2rem;
+                height: 2rem;
+                display: inline;
+                vertical-align: middle;
+                margin: 0;
+            }
+
+            .icons {
+                margin-top: 4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .link-logo {
+                    height: 3rem;
+                    width: 3rem;
+                    margin: 0.5rem;
+                }
+
+                .link-logo:hover {
+                    fill: $accent-colour;
+                }
+            }
+        }
+    }
+    .projects {
+        height: 100vh;
+        width: 100%;
+        background: $secondary-colour;
+        color: $primary-colour;
+    }
+}
+
