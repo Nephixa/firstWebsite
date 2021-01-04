@@ -9,7 +9,7 @@ $accent-colour: greenyellow;
 header {
     z-index: 999;
     height: 2rem;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     background: $secondary-colour;
     color: $primary-colour;
     margin: 0;
@@ -22,9 +22,10 @@ header {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        height: 100%;
 
         #logo {
-            font-size: 30px;
+            font-size: 2rem;
             font-family: 'Ubuntu', monospace;
             padding: 0 1rem;
             text-decoration: none;
@@ -32,7 +33,7 @@ header {
         }
 
         nav {
-            font-size: 20px;
+            font-size: 1.25rem;
             font-family: 'Roboto', 'Roboto Mono', 'Ubuntu', sans-serif, monospace;
             font-weight: 300;
     
@@ -44,7 +45,7 @@ header {
                 margin-right: 0.75rem;
     
                 &:last-child {
-                    margin-right: 3rem;
+                    margin-right: 2rem;
                 }
             }
         }
