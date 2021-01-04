@@ -26,7 +26,7 @@ function Hero() {
                             <a href="https://github.com/Nephixa" target="_blank" rel="noopener noreferrer">
                                 <GithubLogo className="link-logo" />
                             </a>
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/kevin-cai-39a167203/" target="_blank" rel="noopener noreferrer">
                                 <LinkedInLogo className="link-logo" />
                             </a>
                         </nav>
