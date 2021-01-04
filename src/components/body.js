@@ -21,7 +21,7 @@ function Body() {
                         <img src={degree} alt="degree"></img>   Bachelor of Adv. Computing @ USYD
                     </p>
                     <p className="location">
-                        <img src={location} alt="location"></img>   Sydney, Australia
+                        <img src={location} alt="location"></img>  Sydney, Australia
                     </p>
                         <nav className="icons">
                             <a href="https://github.com/Nephixa" target="_blank" rel="noopener noreferrer">

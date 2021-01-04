@@ -8,7 +8,7 @@ $primary-colour: #1C1C1C;
 header {
     z-index: 999;
     height: 2rem;
-    padding: 15px;
+    padding: 1rem;
     background: $secondary-colour;
     color: $primary-colour;
     margin: 0;
@@ -25,7 +25,7 @@ header {
         #logo {
             font-size: 30px;
             font-family: 'Ubuntu', monospace;
-            padding: 0 15px;
+            padding: 0 1rem;
             text-decoration: none;
             color: $primary-colour;
         }
@@ -39,8 +39,8 @@ header {
         a {
             text-decoration: none;
             color: $primary-colour;
-            margin-left: 1rem;
-            margin-right: 1rem;
+            margin-left: 0.75rem;
+            margin-right: 0.75rem;
 
             &:last-child {
                 margin-right: 3rem;
