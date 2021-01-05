@@ -3,16 +3,6 @@ $secondary-colour: #eeeeee;
 $accent-colour: greenyellow;
 $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monospace, sans-serif;
 
-// :root {
-//     font-size: 16px;
-// }
-
-// @mixin testing {
-//     @media (min-width: 0px) and (max-width: 800px) {
-//         @content;
-//     }
-// }
-
 
 #particles-js {
     background: $primary-colour;
@@ -22,17 +12,11 @@ $hero-fonts: 'Montserrat', 'Open Sans', 'Roboto', 'Roboto Mono', 'Ubuntu', monos
 }
 
 .container {
-    // font-size: 16px;
     height: 100vh;
     width: 100vw;
     position: relative;
 
-    // @include testing {
-    //     font-size: 10px;
-    // }
-
     .hero {
-        border: 1px solid cyan;
         background: $primary-colour;
         color: $secondary-colour;
         font-family: $hero-fonts;
