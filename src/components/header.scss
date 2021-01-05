@@ -2,15 +2,11 @@ $secondary-colour: #eeeeee;
 $primary-colour: #1C1C1C;
 $accent-colour: greenyellow;
 
-// :root {
-    
-// }
-
 header {
     font-size: 16px;
     z-index: 999;
-    height: 2rem;
-    padding: 1rem 0 1rem 0;
+    height: 2em;
+    padding: 1em 0 1em 0;
     background: $secondary-colour;
     color: $primary-colour;
     margin: 0;
@@ -26,15 +22,15 @@ header {
         height: 100%;
 
         #logo {
-            font-size: 2rem;
+            font-size: 2em;
             font-family: 'Ubuntu', monospace;
-            padding: 0 1rem;
+            padding: 0 1em;
             text-decoration: none;
             color: $primary-colour;
         }
 
         nav {
-            font-size: 1.25rem;
+            font-size: 1.25em;
             font-family: 'Roboto', 'Roboto Mono', 'Ubuntu', sans-serif, monospace;
             font-weight: 300;
     
@@ -42,11 +38,11 @@ header {
                 font-stretch: condensed;
                 text-decoration: none;
                 color: $primary-colour;
-                margin-left: 0.75rem;
-                margin-right: 0.75rem;
+                margin-left: 0.75em;
+                margin-right: 0.75em;
     
                 &:last-child {
-                    margin-right: 2rem;
+                    margin-right: 2em;
                 }
             }
         }
