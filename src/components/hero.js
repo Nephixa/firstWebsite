@@ -23,7 +23,7 @@ function Hero() {
                         <img src={location} alt="location"></img>  Sydney, Australia
                     </p>
                         <nav className="icons">
-                            <a href="https://github.com/Nephixa" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/Kevin-Cai-dev" target="_blank" rel="noopener noreferrer">
                                 <GithubLogo className="link-logo" />
                             </a>
                             <a href="https://www.linkedin.com/in/kevin-cai-39a167203/" target="_blank" rel="noopener noreferrer">
