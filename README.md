@@ -1,4 +1,4 @@
-THIS PROJECT HAS BEEN SCRAPPED, NEW WEBSITE REPOSITORY [HERE](https://github.com/Kevin-Cai-dev/node-vc-monitor), WEBSITE LINK [HERE](https://kevincai.me/)
+THIS PROJECT HAS BEEN SCRAPPED, NEW WEBSITE REPOSITORY [HERE](https://github.com/Kevin-Cai-dev/portfolio), WEBSITE LINK [HERE](https://kevincai.me/)
 
 Notes:
 - react.js needs to be written with a component mindset, each element which you want to use can be encapsulated in its own component and reused throughout the code in different spots. similar to oop
